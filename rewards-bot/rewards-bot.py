@@ -128,7 +128,7 @@ if __name__ == "__main__":
     rewards_data = read_rewards_data(rewards_file)
     for entry in rewards_data:
             address = entry["dym_address"]
-            amount = f"{entry['rewards']}dym"
+            amount = f"{entry['rewards']}adym"
                 
             if address in processed_addresses:
                 print(f"Skipping already processed address: {address}")
